@@ -10,8 +10,8 @@
         /* CSS Básico */
         body {
             font-family: 'Poppins', sans-serif;
-            background-color: #0d0d0d; /* Fondo oscuro */
-            color: #ffffff; /* Texto blanco */
+            background-color: #0d0d0d;
+            color: #ffffff;
             margin: 0;
             padding: 0;
             display: flex;
@@ -19,7 +19,7 @@
             align-items: center;
             min-height: 100vh;
             text-align: center;
-            padding-top: 50px; /* Espacio superior */
+            padding-top: 50px;
         }
         .container {
             width: 90%;
@@ -29,9 +29,11 @@
             width: 120px;
             height: 120px;
             border-radius: 50%;
-            border: 4px solid #ff4500; /* Borde de color de acento */
+            border: 4px solid #ff4500;
             object-fit: cover;
             margin-bottom: 15px;
+            /* Si no tienes una URL de foto pública, usa un placeholder y súbela luego */
+            background-color: #444; 
         }
         h1 {
             margin: 0;
@@ -58,6 +60,10 @@
             border: 1px solid #444444;
             box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
         }
+        .link-button.paypal-btn {
+            background-color: #00457C; /* Color azul de PayPal */
+            border-color: #00457C;
+        }
         .link-button:hover {
             background-color: #333333;
             transform: translateY(-2px);
@@ -79,12 +85,13 @@
 
         <p class="bio">Me gustan los deportes de contacto, el gimnasio y los videojuegos. Si no te lo quieres perder sígueme y nos veremos pronto!</p>
         
-        <a href="<URL DE TU TIKTOK>" target="_blank" class="link-button">▶️ TIKTOK</a>
-        <a href="<URL DE TU DISCORD>" target="_blank" class="link-button">💬 DISCORD</a>
-        <a href="<URL DE TU TWITCH>" target="_blank" class="link-button">🎮 TWITCH</a>
-        <a href="<URL DE TU INSTAGRAM>" target="_blank" class="link-button">📸 INSTAGRAM</a>
+        <a href="https://www.tiktok.com/@adryz81" target="_blank" class="link-button">TikTok</a>
+        <a href="https://www.instagram.com/adrizv.17/" target="_blank" class="link-button">Instagram</a>
+        <a href="https://discord.gg/pJ95KWCzwg" target="_blank" class="link-button">Discord</a>
         
-        <a href="mailto:adryzshadow@gmail.com" class="link-button">📧 CONTACTO (Email)</a>
+        <a href="https://www.paypal.com/paypalme/RMihaiM" target="_blank" class="link-button paypal-btn">💰 Donar / PayPal</a>
+
+        <a href="mailto:adryzshadow@gmail.com" class="contact-link">📧 CONTACTO: adryzshadow@gmail.com</a>
         
     </div>
 </body>
